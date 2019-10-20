@@ -10,3 +10,5 @@ If user hits copy to clipboard their newly generated password will of course be 
 I also included a Button on the top right of the screen that will clear the password if they would like to generate a new one.
 
 https://github.com/ZachBach/Password-Generator
+
+![Imgur](https://i.imgur.com/2PnijhC.png)

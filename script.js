@@ -41,10 +41,10 @@ console.log(userSetChars)
 
 for (let i = 0; i < length; i++) {
 userPassword.push(userSetChars[Math.floor(Math.random() * userSetChars.length)]);
- console.log(userPassword.join(''));
+ console.log(userPassword.join('+'));
 }
 // getting the element by id and passing the new generated password to the text area
-document.getElementById("password").value = userPassword;
+document.getElementById("password").value = userPassword.join("");
 //  alert("Your new password is:   " + userPassword.join(''));
 }
 // created a new function to copy to the new password to the clipboard
